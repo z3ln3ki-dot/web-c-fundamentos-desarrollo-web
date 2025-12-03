@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h5, h6, p, a {
+    color: white
+}
+
+.text-style {
+    font-family:monospace;
+    font-size: 1rem;  /* rem: 16px */
+    font-style: oblique;
+}
+.purple{color: blueviolet;}
+.orange{color: orange;}
+.celeste{color: aqua;}
+
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+
+
+.box{
+    display:inline-block;  /* se puede usar lo que esta adentro*/
+/*     width: 137px; 
+    height: 38px; */
+    background-color: green;
+    padding: 10px 50px;
+            /*a,d,ad,i*/
+
+    /* padding-right: 50%; */
+    margin: 30px auto 0 auto;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 100px;
+}
